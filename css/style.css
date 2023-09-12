@@ -1,3 +1,100 @@
-body{
-    background-color: aqua;
+/* Algemene opmaak voor de hele pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stijl voor de hoofdsectie */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Opmaak voor de secties binnen de hoofdsectie */
+.flexbox {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    min-width: calc(33.33% - 20px); /* Verdeel in 3 kolommen */
+    box-sizing: border-box; /* Voorkomt dat marges de breedte overschrijden */
+}
+
+/* Opmaak voor de lijsten */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Opmaak voor de lijstitems */
+li {
+    margin-bottom: 10px; /* Meer ruimte tussen de lijstitems */
+}
+
+/* Opmaak voor de koppen */
+h2 {
+    font-size: 20px; /* Kleinere tekstgrootte voor de koppen */
+    margin-bottom: 10px; /* Meer ruimte onder de koppen */
+}
+
+h3 {
+    font-size: 16px; /* Kleinere tekstgrootte voor de subkoppen */
+    margin-bottom: 5px; /* Minder ruimte onder de subkoppen */
+}
+
+/* Opmaak voor de paragrafen */
+p {
+    font-size: 14px; /* Kleinere tekstgrootte voor de paragrafen */
+    margin: 5px 0; /* Meer ruimte boven en onder de paragrafen */
+}
+
+/* Opmaak voor de tabellen */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Opmaak voor de tabelkoppen */
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Opmaak voor de tabelrijen */
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Opmaak voor de tabelcellen */
+td {
+    padding: 10px;
+}
+
+/* Opmaak voor afbeeldingen */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Opmaak voor de docenten-fotos */
+.docenten-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Opmaak voor de docentenfoto's en tekst */
+.docentenflex {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
 }
