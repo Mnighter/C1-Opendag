@@ -1,35 +1,54 @@
 /* Algemene opmaak voor de hele pagina */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
-
 /* Stijl voor de hoofdsectie */
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
+    border: 2px solid black;
+    background-color: cornflowerblue;
 }
-
+nav{
+    background-color: #c2ec0c;
+}
+nav, .curio-img{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    display: flex;
+    display: grid;
+    grid-row: span 2;
+    grid-gap: 20px;
+    margin: 20px 0;
+    grid-template-columns: 1fr 1fr; 
+}
 /* Opmaak voor de secties binnen de hoofdsectie */
 .flexbox {
     flex: 1;
-    background-color: #fff;
+    background-color: lightsteelblue;
     padding: 20px;
     margin: 10px;
-    border: 1px solid #ddd;
+    border: 2px solid black;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     min-width: calc(33.33% - 20px); /* Verdeel in 3 kolommen */
     box-sizing: border-box; /* Voorkomt dat marges de breedte overschrijden */
+    height: 600px;
 }
 
 /* Opmaak voor de lijsten */
 ul {
     list-style: none;
     padding: 0;
+}
+.blok-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* Opmaak voor de lijstitems */
@@ -53,7 +72,9 @@ p {
     font-size: 14px; /* Kleinere tekstgrootte voor de paragrafen */
     margin: 5px 0; /* Meer ruimte boven en onder de paragrafen */
 }
-
+.listflex{
+    width: 250px;
+}
 /* Opmaak voor de tabellen */
 table {
     width: 100%;
@@ -62,10 +83,11 @@ table {
 
 /* Opmaak voor de tabelkoppen */
 th {
-    background-color: #f0f0f0;
+    background-color: lightslategray;
     font-weight: bold;
     text-align: left;
     padding: 10px;
+    border: 2px solid gray;
 }
 
 /* Opmaak voor de tabelrijen */
@@ -75,11 +97,12 @@ tr {
 
 /* Opmaak voor de tabelcellen */
 td {
-    padding: 10px;
+    padding: 5px;
+    border: 2px solid gray;
 }
 
 /* Opmaak voor afbeeldingen */
-img {
+.img {
     max-width: 100%;
     height: auto;
 }
@@ -91,10 +114,15 @@ img {
     justify-content: space-between;
     margin-top: 20px;
 }
+.docenten-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
 /* Opmaak voor de docentenfoto's en tekst */
 .docentenflex {
     flex: 1;
     text-align: center;
     margin: 10px;
+    
 }
