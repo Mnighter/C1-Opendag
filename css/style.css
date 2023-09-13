@@ -73,34 +73,18 @@ p {
     margin: 5px 0; /* Meer ruimte boven en onder de paragrafen */
 }
 .listflex{
-    width: 250px;
+    width: 270px;
 }
-/* Opmaak voor de tabellen */
-table {
-    width: 100%;
-    border-collapse: collapse;
+.listflex p{
+    font-size: 12px;
 }
-
-/* Opmaak voor de tabelkoppen */
-th {
-    background-color: lightslategray;
-    font-weight: bold;
-    text-align: left;
-    padding: 10px;
-    border: 2px solid black;
+.widthflex{
+    width: 550px;
 }
 
-/* Opmaak voor de tabelrijen */
-tr {
-    border-bottom: 1px solid #ddd;
+.rooster{
+    width: 500px;
 }
-
-/* Opmaak voor de tabelcellen */
-td {
-    padding: 5px;
-    border: 2px solid black;
-}
-
 /* Opmaak voor afbeeldingen */
 .img {
     max-width: 100%;
