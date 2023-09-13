@@ -87,7 +87,7 @@ th {
     font-weight: bold;
     text-align: left;
     padding: 10px;
-    border: 2px solid gray;
+    border: 2px solid black;
 }
 
 /* Opmaak voor de tabelrijen */
@@ -98,7 +98,7 @@ tr {
 /* Opmaak voor de tabelcellen */
 td {
     padding: 5px;
-    border: 2px solid gray;
+    border: 2px solid black;
 }
 
 /* Opmaak voor afbeeldingen */
