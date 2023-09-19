@@ -85,6 +85,14 @@ p {
 .rooster{
     width: 500px;
 }
+.emoji{
+    width: 200px;
+    padding-top: 100px;
+}
+.flexen{
+    display: flex;
+    justify-content: center;
+}
 /* Opmaak voor afbeeldingen */
 .img {
     max-width: 100%;
