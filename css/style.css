@@ -85,9 +85,12 @@ p {
 .rooster{
     width: 500px;
 }
+.space{
+    padding: 10px;
+}
 .emoji{
     width: 200px;
-    padding-top: 100px;
+
 }
 .flexen{
     display: flex;
@@ -118,3 +121,10 @@ p {
     margin: 10px;
     
 }
+
+@media screen and (max-width: 500px) {
+    body {
+      background-color: lightgreen;
+    }
+}
+
